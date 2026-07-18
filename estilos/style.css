@@ -34,7 +34,7 @@ section#login {
   border-radius: 20px;
   box-shadow: 15px 15px 35px #000000;
 
-  transition: width 0.3s, height 0.3s;
+  transition: width 1s, height 1s;
   transition-timing-function: ease;
 }
 section#login div#imagem {
@@ -116,4 +116,11 @@ div.campo {
   margin: 5px 0px;
   border-radius: 10px;
   border: solid #000000;
+}
+div.campo input {
+    width: 94.5%;
+    height: 85%;
+    box-sizing: border-box;
+    border: 1px solid #000;
+    border-radius: 5px;
 }
