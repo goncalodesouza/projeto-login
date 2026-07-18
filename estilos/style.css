@@ -12,7 +12,7 @@
   box-sizing: border-box;
 }
 body, html {
-  background-color: #5F2C82;
+  background-color: #000000b1;
   height: 100vh;
   width: 100vw;
 }
@@ -32,16 +32,19 @@ section#login {
   width: 250px;
   height: 500px;
   border-radius: 20px;
-  box-shadow: 15px 15px 35px #37194a;
+  box-shadow: 15px 15px 35px #000000;
+
+  transition: width 0.3s, height 0.3s;
+  transition-timing-function: ease;
 }
 section#login div#imagem {
   display: block;
-  background: #5F2C82 url(../imagens/pexels-pixasquare-1123982\ \(2\).jpg) no-repeat;
+  background: #000000 url(../imagens/pexels-pixasquare-1123982\ \(2\).jpg) no-repeat;
   background-position: center;
   height: 200px;
   background-size: cover;
-  }
-  section#login div#form {
-    display: block;
-    padding: 10px;
-  }
+}
+section#login div#form {
+  display: block;
+  padding: 10px;
+}
